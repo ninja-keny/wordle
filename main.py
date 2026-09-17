@@ -1171,5 +1171,6 @@ while win == False and  lose == False:
      counter += 1
   print("".join(checker))
  if attempts == len(word)+1:
+   print("the word was "+str(word))
    print("you lose")
    lose = True
